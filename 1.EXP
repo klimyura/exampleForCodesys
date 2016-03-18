@@ -7,9 +7,11 @@
 PROGRAM PLC_PRG
 VAR
 	var1: INT;
+	var2: REAL;
 END_VAR
 (* @END_DECLARATION := '0' *)
 var1:= 10;
+var2:= 100;
 END_PROGRAM
 
 (* @NESTEDCOMMENTS := 'Yes' *)
